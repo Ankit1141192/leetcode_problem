@@ -1,3 +1,4 @@
+// check palindrome
 function isPalindrome(num){
     let S = num.toString()
     let bag = '';
@@ -8,6 +9,4 @@ function isPalindrome(num){
         }
     }
     return false;
-   
-    
 }
